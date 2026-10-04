@@ -1,0 +1,56 @@
+[
+  {
+    "data_source": "syntax-r1",
+    "prompt": [
+      {
+        "content": "Generate the constituency tree of the given sentence.\nThey serve the industries and the special-interest groups .",
+        "role": "user"
+      }
+    ],
+    "ability": "parsing",
+    "reward_model": {
+      "ground_truth": "(TOP (S (NP (PRP They)) (VP (VBP serve) (NP (NP (DT the) (NNS industries)) (CC and) (NP (DT the) (JJ special-interest) (NNS groups)))) (. .)))",
+      "style": "rule"
+    },
+    "extra_info": {
+      "index": 13,
+      "split": "train"
+    }
+  },
+  {
+    "data_source": "syntax-r1",
+    "prompt": [
+      {
+        "content": "Generate the constituency tree of the given sentence.\nUnilever already has experienced some disappointment .",
+        "role": "user"
+      }
+    ],
+    "ability": "parsing",
+    "reward_model": {
+      "ground_truth": "(TOP (S (NP (NNP Unilever)) (ADVP (RB already)) (VP (VBZ has) (VP (VBN experienced) (NP (DT some) (NN disappointment)))) (. .)))",
+      "style": "rule"
+    },
+    "extra_info": {
+      "index": 14,
+      "split": "train"
+    }
+  },
+  {
+    "data_source": "syntax-r1",
+    "prompt": [
+      {
+        "content": "Generate the constituency tree of the given sentence.\nMr. Baker promises to return if the haunting continues .",
+        "role": "user"
+      }
+    ],
+    "ability": "parsing",
+    "reward_model": {
+      "ground_truth": "(TOP (S (NP (NNP Mr.) (NNP Baker)) (VP (VBZ promises) (S (VP (TO to) (VP (VB return) (SBAR (IN if) (S (NP (DT the) (NN haunting)) (VP (VBZ continues)))))))) (. .)))",
+      "style": "rule"
+    },
+    "extra_info": {
+      "index": 31,
+      "split": "train"
+    }
+  }
+]

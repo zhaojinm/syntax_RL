@@ -1,0 +1,17 @@
+[
+  {
+    "instruction": "Generate the constituency tree of the given sentence.",
+    "input": "Mr. Schwarz 's father was a U.S. Trust trustee until 1974 .",
+    "output": "(TOP (S (NP (NP (NNP Mr.) (NNP Schwarz) (POS 's)) (NN father)) (VP (VBD was) (NP (DT a) (NNP U.S.) (NNP Trust) (NN trustee)) (PP (IN until) (NP (CD 1974)))) (. .)))"
+  },
+  {
+    "instruction": "Generate the constituency tree of the given sentence.",
+    "input": "Keeping the listed price at a dollar is primarily a convenience .",
+    "output": "(TOP (S (S (VP (VBG Keeping) (NP (DT the) (VBN listed) (NN price)) (PP (IN at) (NP (DT a) (NN dollar))))) (VP (VBZ is) (ADVP (RB primarily)) (NP (DT a) (NN convenience))) (. .)))"
+  },
+  {
+    "instruction": "Generate the constituency tree of the given sentence.",
+    "input": "Investment and emigration plans take time to come to fruition .",
+    "output": "(TOP (S (NP (NN Investment) (CC and) (NN emigration) (NNS plans)) (VP (VBP take) (NP (NN time)) (S (VP (TO to) (VP (VB come) (PP (TO to) (NP (NN fruition))))))) (. .)))"
+  }
+]

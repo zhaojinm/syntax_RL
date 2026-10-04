@@ -1,0 +1,17 @@
+[
+  {
+    "instruction": "",
+    "input": "I 'm happy and sad , he said .",
+    "output": "{NP I} {(S[dcl]\\NP)/(S[adj]\\NP) 'm} {S[adj]\\NP happy} {conj and} {S[adj]\\NP sad} {, ,} {NP he} {(S[dcl]\\S[dcl])\\NP said} {. .}"
+  },
+  {
+    "instruction": "",
+    "input": "Distribution centers are bombed , and advertisers are intimidated .",
+    "output": "{N/N Distribution} {N centers} {(S[dcl]\\NP)/(S[pss]\\NP) are} {S[pss]\\NP bombed} {, ,} {conj and} {N advertisers} {(S[dcl]\\NP)/(S[pss]\\NP) are} {S[pss]\\NP intimidated} {. .}"
+  },
+  {
+    "instruction": "",
+    "input": "But that partner is n't Fiat .",
+    "output": "{S/S But} {NP[nb]/N that} {N partner} {(S[dcl]\\NP)/NP is} {(S\\NP)\\(S\\NP) n't} {N Fiat} {. .}"
+  }
+]

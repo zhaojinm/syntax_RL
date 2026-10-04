@@ -1,0 +1,9 @@
+{
+  "ptb_sft": {
+    "file_name": "ptb_sft.json"
+  },
+  "ccg_sft": {
+    "file_name": "ccg_sft.json"
+  }
+}
+

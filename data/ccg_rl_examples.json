@@ -1,0 +1,56 @@
+[
+  {
+    "data_source": "syntax-r1",
+    "prompt": [
+      {
+        "content": "But such a combination also presents great risks .",
+        "role": "user"
+      }
+    ],
+    "ability": "parsing",
+    "reward_model": {
+      "ground_truth": "{S/S But} {NP/NP such} {NP[nb]/N a} {N combination} {(S\\NP)/(S\\NP) also} {(S[dcl]\\NP)/NP presents} {N/N great} {N risks} {. .}",
+      "style": "rule"
+    },
+    "extra_info": {
+      "index": 5,
+      "split": "train"
+    }
+  },
+  {
+    "data_source": "syntax-r1",
+    "prompt": [
+      {
+        "content": "An investigation by U.S. Postal inspectors is continuing .",
+        "role": "user"
+      }
+    ],
+    "ability": "parsing",
+    "reward_model": {
+      "ground_truth": "{NP[nb]/N An} {N investigation} {(NP\\NP)/NP by} {N/N U.S.} {N/N Postal} {N inspectors} {(S[dcl]\\NP)/(S[ng]\\NP) is} {S[ng]\\NP continuing} {. .}",
+      "style": "rule"
+    },
+    "extra_info": {
+      "index": 8,
+      "split": "train"
+    }
+  },
+  {
+    "data_source": "syntax-r1",
+    "prompt": [
+      {
+        "content": "They 're getting some major wins , she added .",
+        "role": "user"
+      }
+    ],
+    "ability": "parsing",
+    "reward_model": {
+      "ground_truth": "{NP They} {(S[dcl]\\NP)/(S[ng]\\NP) 're} {(S[ng]\\NP)/NP getting} {NP[nb]/N some} {N/N major} {N wins} {, ,} {NP she} {(S[dcl]\\S[dcl])\\NP added} {. .}",
+      "style": "rule"
+    },
+    "extra_info": {
+      "index": 41,
+      "split": "train"
+    }
+  }
+]

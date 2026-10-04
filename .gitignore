@@ -1,0 +1,10 @@
+outputs/
+data/*.parquet
+data/ptb_sft.json
+data/ccg_sft.json
+*.log
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+third_party/EVALB/evalb
